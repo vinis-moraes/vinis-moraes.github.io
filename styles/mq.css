@@ -2,6 +2,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
+    
     .text{
         margin-left: 44%;
         transition: .3s;
@@ -9,6 +10,7 @@
 
     .project{
         box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.4);
+        font-size: 1em;
         transition: .3s;
         
     }

@@ -51,6 +51,7 @@ div.project{
     margin: 40px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.4);
+    font-size: .8em;
 }
 
 div#project_android{
