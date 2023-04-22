@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text{
+        margin-left: 44%;
+        transition: .3s;
+    }
+
+    .project{
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.4);
+        transition: .3s;
+        
+    }
+
+    div#project_android{
+        background: url('../images/android.png') ;
+        background-attachment: fixed;
+        background-size: contain;
+        background-position:  center;
+        background-repeat: no-repeat;
+        transition: .3s;
+    }
+
+    div#project_cordel{
+        background: url('../images/cordel.png') ;
+        background-attachment: fixed;
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        transition: .3s;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    main{
+        max-width: 932px;
+    }
+} 

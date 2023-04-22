@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mq.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Website do Vini Moraes</title>
 </head>
 <body>
+    <header>
+            <h1>Website do Vini Moraes</h1>
+        </header>
     <main>
-        <h1>Website do Vini Moraes</h1>
         <h2>Projetos:</h2>
-        <ul>
-            <li><h3><a href="/Projeto-Android" target="_blank">Projeto Android</a></h3></li>
-            <li><h3><a href="/Projeto-Cordel" target="_blank">Projeto Cordel</a></h3></li>
-            <li><h3><a href="/Projeto-Social" target="_blank">Projeto Social</a></h3></li>
-        </ul>
+            <ul>
+                <div class="project" id="project_android">
+                    <div class="text" id="android">
+                        <a href="https://vinis-moraes.github.io/Projeto-Android/">
+                            <h3>Projeto Android</h3>
+                            <p>Projeto de blog com informações sobre a origem do sistema operacional Android. Mostra imagens de forma responsiva e apresenta um menu adaptável em diferentes plataformas, permitindo uma boa visualização em todas as plataformas.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="project" id="project_cordel">
+                    <div class="text" id="cordel">
+                        <a href="https://vinis-moraes.github.io/Projeto-Cordel/">
+                            <h3>Projeto Cordel</h3>
+                            <p>Projeto com um cordel e imagens em efeito Parallax. Apresenta fontes handscripting e maior quantidade de bordas e sombras. Possui fonte ajustável de acordo com o tamanho da tela de exibição.</p>
+                        </a>
+                    </div>
+                </div>
+                
+            </ul>
     </main>
+    
+    <footer><p>Site criado por <a target="_blank" href="https://vinis-moraes.github.io">Vini Moraes</a></p></footer>
 </body>
 </html>
